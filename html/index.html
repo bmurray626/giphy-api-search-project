@@ -4,17 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Link to Bootstrap CSS -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
+    <!-- Link to Fontawesome for integrated Icons -->
     <script
       src="https://kit.fontawesome.com/5afc7923c6.js"
       crossorigin="anonymous"
     ></script>
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="/css/style.css">
     <title>A GIF for that!</title>
+    <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="index.html">
         <img
@@ -57,11 +62,14 @@
   <body>
     <h1>A Gif for that!</h1>
     <p>GIFs to express yourself when words simply don't do the trick</p>
-    <div class="search-container">
-      <input id="search" type="Search" placeholder="Search..." />
-      <button id="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-    </div>
-    <script src="/js/"></script>
+    <form action="#" method="GET" class="form js-form">
+      <div class="search-container">
+        <input id="search" type="Search" placeholder="Search..." />
+        <button id="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+      </div>
+    </form>
+    <section class="js-result"></section>
+    <!-- Link to JS via Bootstrap -->
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -77,5 +85,7 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
+    <!-- Link to JavaScript -->
+    <script src="/js/main.js"></script>
   </body>
 </html>
